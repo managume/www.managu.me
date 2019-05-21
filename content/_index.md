@@ -9,5 +9,3 @@ Fuera del desarrollo PHP, intento explotar mi ~~culo inquieto~~ curiosidad y cre
 En lo personal, soy un apasionado de los cómics y la animación, sobre todo la japonesa, de los videojuegos, de la naturaleza, de descubrir nuevos lugares y de los animales.
 
 Si te interesa mi perfil profesional y crees que compartimos la misma filosofía, aficiones o lo que sea, que no te dé reparo, escríbeme y charlamos sobre lo que quieras.👋
-
-En redes sociales puedes encontrarme en los siguientes perfiles:
