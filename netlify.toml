@@ -38,7 +38,7 @@ HUGO_ENABLEGITINFO = "true"
 from = "http://blog.managu.me"
 to = "http://www.managu.me/blog"
 status = 200
-force = true
+force = false
 
 [[redirects]]
 from = "http://blog.managu.me/*"
