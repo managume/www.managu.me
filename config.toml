@@ -1,0 +1,69 @@
+# Site settings
+baseURL = "http://www.managu.me/"
+themesDir = "themes"
+languageCode = "es"
+defaultContentLanguage = "es"
+title = "Manu Aguilar | managu.me"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = ""
+
+[menu]
+	[[menu.main]]
+		identifier = "about"
+		name = "sobre mi"
+		url = "/"
+		weight = "-110"
+	[[menu.main]]
+		identifier = "blog"
+		name = "blog"
+		url = "/blog"
+		weight = "-100"
+
+[params]
+	name = "Manu Aguilar"
+	description = "Otro blog más de un ingeniero fullstack"
+	bio = "Ingeniero de software fullstack"
+	# Enter optionally your twitter account
+	twitter = "managume"
+	enableRSS = true
+
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	#home = "inicio"
+	subscribe = "feed"
+	# Pagination links
+	olderPosts = "Atrás"
+	newerPosts = "Siguiente"
+	readMore = ""
+	copyright = "Con 💚 desde 1986"
+	# Sharing options and author information in posts
+	aboutAuthor = "Ingeniero de software fullstack."
+	tweet = "¡Tuitea!"
+	share = "¡Comparte!"
+	# 404 page
+	title404 = "Oh oh! Parece que hay un error :("
+	subtitle404 = "Puede que lo que estás buscando no se encuentre aquí."
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/managume"
+    linkedin = "https://www.linkedin.com/in/managume"
+    github   = "https://www.github.com/managume"
+
+[permalinks]
+	posts = "/blog/:slug"
