@@ -14,14 +14,12 @@ disqusShortname = ""
 	[[menu.main]]
 		identifier = "about"
 		name = "sobre mí"
-		# ToDo: Probar a añadir directamente www.managume.com
-		url = "https://www.managu.me"
+		url = "/"
 		weight = "-110"
 	[[menu.main]]
 		identifier = "blog"
 		name = "blog"
-		# ToDo: Probar a añadir directamente blog.managume.com
-		url = "https://blog.managu.me"
+		url = "/blog"
 		weight = "-100"
 
 [params]
