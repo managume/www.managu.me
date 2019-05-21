@@ -35,12 +35,6 @@ HUGO_VERSION = "0.55.6"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-from = "http://blog.managu.me"
-to = "http://www.managu.me/blog"
-status = 200
-force = false
-
-[[redirects]]
 from = "http://blog.managu.me/*"
 to = "http://www.managu.me/blog/:splat"
 status = 200
