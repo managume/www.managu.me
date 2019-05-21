@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://www.managu.me/"
+baseURL = "/"
 themesDir = "themes"
 languageCode = "es"
 defaultContentLanguage = "es"

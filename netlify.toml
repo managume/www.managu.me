@@ -2,6 +2,11 @@
 publish = "public"
 command = "hugo --gc --minify"
 
+[build.environment]
+HUGO_VERSION = "0.55.6"
+HUGO_THEME = "hugo-cactus-theme"
+HUGO_BASE_URL = "https://managume.netlify.com"
+
 [context.production.environment]
 HUGO_VERSION = "0.55.6"
 HUGO_ENV = "production"
