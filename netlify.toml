@@ -33,3 +33,11 @@ HUGO_VERSION = "0.55.6"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "http://blog.managu.me/*"
+to = "http://www.managu.me/blog/:splat 301!"
+
+[[redirects]]
+from="http://managume.netlify.com/*"
+to="http://www.managu.me/:splat 301!"
