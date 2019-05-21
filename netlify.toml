@@ -37,10 +37,10 @@ HUGO_ENABLEGITINFO = "true"
 [[redirects]]
 from = "http://blog.managu.me"
 to = "http://www.managu.me/blog"
-status = 301
+status = 200
 
 [[redirects]]
-from = "/blog/*"
+from = "http://www.managu.me/blog/*"
 to = "http://blog.managu.me/:splat"
 status = 200
 
